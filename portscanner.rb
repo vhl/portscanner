@@ -1,7 +1,6 @@
 require 'socket'
 require 'json'
 require 'slack-notifier'
-require 'net/https'
 
 PORTBOT_WEBHOOK = ENV["PORTBOT_WEBHOOK"]
 PORTBOT_TARGET = ENV["PORTBOT_TARGET"]
